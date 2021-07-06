@@ -15,7 +15,9 @@ li,
 a {
   font-size: 16px;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
 }
 
 header {
@@ -34,10 +36,14 @@ header {
   display: inline-block;
   padding: 0 20px;
 }
+.nav_link li a:hover {
+  color: orange;
+}
 
 .search {
   padding: 8px 5px;
   font-weight: 900;
+  border-radius: 5px;
 }
 /* /Header area End */
 
@@ -86,7 +92,7 @@ a.banner-button {
 /* About me area */
 .about-me-area {
   padding: 0 10%;
-  margin-top: 4%;
+  margin-top: 8%;
   background-image: url(../images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,6 +111,11 @@ a.banner-button {
 }
 .right-about-me-area p {
   padding: 30px 0px 40px;
+  text-align: justify;
+}
+.right-about-me-area h1 {
+  color: rgb(90, 87, 87);
+  font-size: 40px;
 }
 /* About me area end */
 
@@ -141,6 +152,9 @@ a.banner-button {
 .menu-card h2 {
   padding: 20px 0;
   font-weight: 700;
+}
+.menu-card p {
+  text-align: justify;
 }
 /* My recipe area end */
 
