@@ -1,67 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-.flexible-container{
-    display: flex;
+.flexible-container {
+  display: flex;
 }
 
 /* Header Area */
-li,a{
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: 900;
+li,
+a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 900;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
 }
-.logo{
-    cursor: pointer;
+.logo {
+  cursor: pointer;
 }
-.nav_link{
-    list-style: none;
+.nav_link {
+  list-style: none;
 }
-.nav_link li{
-    display: inline-block;
-    padding: 0 20px;
+.nav_link li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-.search{
-    padding: 8px 5px;
-    font-weight: 900;
+.search {
+  padding: 8px 5px;
+  font-weight: 900;
 }
 /* /Header area End */
 
 /* Banner area */
-.banner-area{
-    padding: 0 5%;
+.banner-area {
+  padding: 0 5%;
 }
-.orange-color{
-    color: orange;
+.orange-color {
+  color: orange;
 }
-.left-banner-area{
-    width: 60%;
-    padding-top: 120px;
+.left-banner-area {
+  width: 60%;
+  padding-top: 120px;
 }
-.left-banner-area h1{
-    font-size: 85px;
-    color: rgb(90, 87, 87);
+.left-banner-area h1 {
+  font-size: 85px;
+  color: rgb(90, 87, 87);
 }
-.left-banner-area p{
-    padding: 40px 0;
-    font-weight: 700;
-    color: gray;
+.left-banner-area p {
+  padding: 40px 0;
+  font-weight: 700;
+  color: gray;
 }
-a.banner-button{
-  background-image: linear-gradient(to right,rgb(255, 187, 0), rgb(236, 44, 11));
+a.banner-button {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 187, 0),
+    rgb(236, 44, 11)
+  );
   padding: 20px 30px;
   color: white;
   font-weight: 700;
@@ -70,10 +75,35 @@ a.banner-button{
   box-shadow: 0 0 10px rgb(255, 103, 1);
   display: inline-block;
 }
-.right-banner-area{
-    width: 40%;
+.right-banner-area {
+  width: 40%;
 }
-.right-banner-area img{
-    width: 100%;
+.right-banner-area img {
+  width: 100%;
 }
+/* Banner area end */
 
+/* About me area */
+.about-me-area {
+  padding: 0 10%;
+  margin-top: 4%;
+  background-image: url(../images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left-about-me-area {
+  width: 60%;
+  padding-top: 2%;
+  padding-left: 50px;
+}
+.left-about-me-area img {
+  width: 40%;
+}
+.right-about-me-area {
+  width: 40%;
+  padding-top: 150px;
+}
+.right-about-me-area p {
+  padding: 30px 0px 40px;
+}
+/* About me area end */
